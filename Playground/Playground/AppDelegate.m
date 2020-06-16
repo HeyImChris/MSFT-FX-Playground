@@ -24,5 +24,9 @@
   // Insert code here to tear down your application
 }
 
+- (void)unusedMethod {
+    // This is a test method
+}
+
 
 @end
