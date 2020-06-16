@@ -17,6 +17,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
   // Insert code here to initialize your application
+  NSView *redView = [[NSView alloc] initWithFrame:NSMakeRect(20, 20, 100, 200)];
+  [redView setWantsLayer:YES];
+  [[redView layer] setBackgroundColor:NSColor.redColor.CGColor];
+  [[_window contentView] addSubview:redView];
 }
 
 
