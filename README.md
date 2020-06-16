@@ -13,7 +13,7 @@ When working locally, it's convenient to have a tool that helps manage your chan
 
 ### Fork the Repo
 #### Why?
-Changes are stored on branches of the repo. If we did not fork the repo, but instead had all contributors clone the repo, then all contributors would have access to eveeryones changes. This increases the binary size and decreases visibility for relevent branches to the main repo. Having contirbutors fork the repo allows them to make wahtever local changes they want in their fork, and only contrtibute back to upsteam via one **final** PR
+Changes are stored on branches of the repo. If we did not fork the repo, but instead had all contributors clone the repo, then all contributors would have access to eveeryones changes. This increases the binary size of the repo (and every local clone) and decreases visibility for relevent branches to the main repo. Having contirbutors fork the repo allows them to make wahtever local changes they want in their fork, and only contrtibute back to upsteam via one **final** PR
 
 #### How?
 Click the "Fork" button near the top right of the repo in github. Specify you want to fork using your github name. This should take you over to a version of the repository with your github name at the top. _This_ is where you'll make your changes.
